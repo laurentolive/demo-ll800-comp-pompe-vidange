@@ -1,0 +1,89 @@
+version: 1
+nodes:
+  - name: root
+    label: Pompe de vidange
+    readonly: false
+    objectTypes:
+      - name: exigence-pompe
+        label: Exigence Pompe
+        prefix: POMP
+        category: requirement
+        fields:
+          - name: statement
+            label: Énoncé (EARS)
+            type: richtext
+            validator: EARS
+            required: true
+          - name: priority
+            label: Priorité
+            type: enum
+            values:
+              - high
+              - medium
+              - low
+            required: true
+            default: medium
+          - name: securite
+            label: Exigence de sécurité
+            type: boolean
+            default: false
+          - name: acceptanceCriteria
+            label: Critères d'acceptance
+            type: richtext
+        statuses:
+          - name: draft
+            label: Brouillon
+            color: '#475569'
+          - name: review
+            label: En review
+            color: '#b45309'
+          - name: approved
+            label: Approuvé
+            color: '#16a34a'
+            isApproval: true
+          - name: obsolete
+            label: Obsolète
+            color: '#6b7280'
+            isTerminal: true
+      - name: test-pompe
+        label: Test Pompe
+        prefix: TPOMP
+        category: test
+        fields: []
+        statuses:
+          - name: draft
+            label: Brouillon
+            color: '#475569'
+          - name: review
+            label: En review
+            color: '#b45309'
+          - name: approved
+            label: Approuvé
+            color: '#16a34a'
+            isApproval: true
+          - name: obsolete
+            label: Obsolète
+            color: '#6b7280'
+            isTerminal: true
+linkTypes:
+  - name: implementation
+    labelSourceToTarget: est implémentée par
+    labelTargetToSource: implémente
+    sourceRefs:
+      - requirement
+    targetRefs:
+      - requirement
+  - name: verification
+    labelSourceToTarget: vérifie
+    labelTargetToSource: est vérifiée par
+    sourceRefs:
+      - test
+    targetRefs:
+      - requirement
+  - name: implements-interface
+    labelSourceToTarget: implémente l'exigence d'interface
+    labelTargetToSource: est implémentée (interface) par
+    sourceRefs:
+      - requirement
+    targetRefs:
+      - requirement
