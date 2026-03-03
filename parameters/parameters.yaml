@@ -1,0 +1,13 @@
+parameters:
+  bruit_max:
+    value: ''
+    unit: dB(A)
+    description: À définir avec le fournisseur — valeur vide volontaire (référence non résolue)
+  debit_nominal:
+    value: '22'
+    unit: L/min
+    description: Débit à 1 m de hauteur de refoulement
+  hauteur_refoulement:
+    value: '1'
+    unit: m
+    description: Hauteur de refoulement nominale
