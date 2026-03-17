@@ -1,0 +1,11 @@
+id: POMP-0004
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-pompe
+title: Filtre accessible
+status: draft
+version: 1
+fields:
+  statement: THE pompe SHALL intégrer un filtre démontable sans outil depuis la trappe avant.
+  priority: medium
+jiraLinks: []

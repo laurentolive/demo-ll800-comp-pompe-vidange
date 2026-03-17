@@ -1,0 +1,14 @@
+id: POMP-0003
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-pompe
+title: Fonctionnement à sec
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF la pompe fonctionne à sec pendant 10 min
+    THEN THE pompe SHALL rester intacte.
+  priority: high
+  securite: true
+jiraLinks: []

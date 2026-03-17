@@ -1,0 +1,11 @@
+id: POMP-0001
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-pompe
+title: Débit nominal
+status: draft
+version: 1
+fields:
+  statement: THE pompe SHALL délivrer un débit de {debit_nominal} à {hauteur_refoulement} de hauteur de refoulement.
+  priority: high
+jiraLinks: []

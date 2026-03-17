@@ -1,0 +1,23 @@
+nodeId: root
+typeId: exigence-pompe
+root:
+  - id: bd9b5be4-636e-4452-ae00-6c590aafcd76
+    kind: item
+    name: Débit nominal
+    objectId: POMP-0001
+    children: []
+  - id: ed6c43a1-1f4b-4a37-af68-97233a2b67fe
+    kind: item
+    name: Hauteur de refoulement
+    objectId: POMP-0002
+    children: []
+  - id: a0d68e55-2273-47f3-a4c5-0a416bebc348
+    kind: item
+    name: Fonctionnement à sec
+    objectId: POMP-0003
+    children: []
+  - id: af4fc855-b2e8-4ae0-a3b6-8b62b093721e
+    kind: item
+    name: Filtre accessible
+    objectId: POMP-0004
+    children: []
