@@ -1,0 +1,11 @@
+id: POMP-0002
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-pompe
+title: Hauteur de refoulement
+status: draft
+version: 1
+fields:
+  statement: THE pompe SHALL refouler l'eau jusqu'à une hauteur de {hauteur_refoulement}.
+  priority: medium
+jiraLinks: []
