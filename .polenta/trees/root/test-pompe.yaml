@@ -1,0 +1,13 @@
+nodeId: root
+typeId: test-pompe
+root:
+  - id: 04fda538-a4e8-423b-a9f1-cc60a2e00184
+    kind: item
+    name: Débit nominal
+    objectId: TPOMP-0001
+    children: []
+  - id: c2b7f8bc-ed3d-453c-a88b-1485b812e814
+    kind: item
+    name: Fonctionnement à sec
+    objectId: TPOMP-0002
+    children: []

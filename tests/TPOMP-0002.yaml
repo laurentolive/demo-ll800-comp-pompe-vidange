@@ -1,0 +1,16 @@
+id: TPOMP-0002
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-pompe
+title: Fonctionnement à sec
+status: draft
+version: 1
+preconditions: ''
+equipment: []
+steps:
+  - order: 1
+    action: Faire fonctionner la pompe à sec 10 min.
+    expectedResult: Pas de dommage ; débit nominal conservé ensuite.
+    notes: null
+postconditions: ''
+fields: {}
