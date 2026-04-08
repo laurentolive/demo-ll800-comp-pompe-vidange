@@ -1,0 +1,16 @@
+id: TPOMP-0001
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-pompe
+title: Débit nominal
+status: draft
+version: 1
+preconditions: ''
+equipment: []
+steps:
+  - order: 1
+    action: Mesurer le débit à {hauteur_refoulement}.
+    expectedResult: Débit ≥ {debit_nominal}.
+    notes: null
+postconditions: ''
+fields: {}

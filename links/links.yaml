@@ -1,0 +1,15 @@
+links:
+  - id: lnk_1775649600865_m9t7
+    type: verification
+    sourceId: TPOMP-0001
+    targetId: POMP-0001
+    coverageType: full
+    createdAt: '2026-04-08T12:00:00.000Z'
+    createdBy: Sophie Laurent
+  - id: lnk_1775649600425_co9r
+    type: verification
+    sourceId: TPOMP-0002
+    targetId: POMP-0003
+    coverageType: full
+    createdAt: '2026-04-08T12:00:00.000Z'
+    createdBy: Sophie Laurent
