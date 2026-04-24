@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-pompe
 title: Filtre accessible
-status: draft
+status: review
 version: 1
 fields:
   statement: THE pompe SHALL intégrer un filtre démontable sans outil depuis la trappe avant.

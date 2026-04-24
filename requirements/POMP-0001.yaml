@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-pompe
 title: Débit nominal
-status: draft
+status: approved
 version: 1
 fields:
   statement: THE pompe SHALL délivrer un débit de {debit_nominal} à {hauteur_refoulement} de hauteur de refoulement.
