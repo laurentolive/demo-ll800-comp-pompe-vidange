@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-pompe
 title: Hauteur de refoulement
-status: draft
+status: approved
 version: 1
 fields:
   statement: THE pompe SHALL refouler l'eau jusqu'à une hauteur de {hauteur_refoulement}.

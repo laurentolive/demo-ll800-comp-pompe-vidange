@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-pompe
 title: Fonctionnement à sec
-status: draft
+status: approved
 version: 1
 preconditions: ''
 equipment: []
