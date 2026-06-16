@@ -1,7 +1,7 @@
 id: POMV-0001
 objectTypeRef: root::version
 title: '1.0'
-status: en_cours
+status: released
 version: 1
 changes:
   - id: POMP-0001
@@ -17,6 +17,9 @@ history:
     - value: en_cours
       at: '2026-06-16T09:00:00Z'
       by: Sophie Laurent
+    - value: released
+      at: '2026-06-16T09:00:06Z'
+      by: Sophie Laurent
   changes:
     - value: []
       at: '2026-06-16T09:00:01Z'
@@ -30,3 +33,48 @@ history:
         - TPOMP-0002
       at: '2026-06-16T09:00:03Z'
       by: Sophie Laurent
+freeze:
+  tag: comp-pompe-vidange-1.0
+  sha: c91f484c477a0edfc1c7d3a6b9ab09a5f3488438
+  at: '2026-06-16T09:00:05.000Z'
+analysis:
+  computedAt: '2026-06-16T09:00:04.000Z'
+  frozen: true
+  roots:
+    - elementId: POMP-0001
+      elementType: requirement
+      title: Débit nominal
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: POMP-0002
+      elementType: requirement
+      title: Hauteur de refoulement
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: POMP-0003
+      elementType: requirement
+      title: Fonctionnement à sec
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: POMP-0004
+      elementType: requirement
+      title: Filtre accessible
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TPOMP-0001
+      elementType: test_case
+      title: Débit nominal
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TPOMP-0002
+      elementType: test_case
+      title: Fonctionnement à sec
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+  rows: []
