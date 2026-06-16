@@ -1,0 +1,32 @@
+id: POMV-0001
+objectTypeRef: root::version
+title: '1.0'
+status: en_cours
+version: 1
+changes:
+  - id: POMP-0001
+  - id: POMP-0002
+  - id: POMP-0003
+  - id: POMP-0004
+  - id: TPOMP-0001
+  - id: TPOMP-0002
+fields:
+  description: Première version de la pompe.
+history:
+  status:
+    - value: en_cours
+      at: '2026-06-16T09:00:00Z'
+      by: Sophie Laurent
+  changes:
+    - value: []
+      at: '2026-06-16T09:00:01Z'
+      by: Sophie Laurent
+    - value:
+        - POMP-0001
+        - POMP-0002
+        - POMP-0003
+        - POMP-0004
+        - TPOMP-0001
+        - TPOMP-0002
+      at: '2026-06-16T09:00:03Z'
+      by: Sophie Laurent
